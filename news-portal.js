@@ -21,7 +21,7 @@ const showCategories = data => {
         // step: 2 (recommended for all us)
         let linkContainer = document.createElement('p');
         linkContainer.innerHTML = `
-        <a class="nav-link" href="#">${singleCategory?.category_name}</a>
+        <a class="nav-link" href="#">${singleCategory.category_name}</a>
         `;
         categoriesContainer.appendChild(linkContainer);
     })
